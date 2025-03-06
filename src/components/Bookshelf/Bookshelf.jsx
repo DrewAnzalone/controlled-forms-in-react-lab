@@ -16,8 +16,6 @@ const Bookshelf = () => {
 
   function handleSubmit(event) {
     event.preventDefault();
-    // console.log(event)
-    // console.log(event.target)
     setBooks([...books, newBook]);
     setNewBook(emptyBook);
   }
